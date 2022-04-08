@@ -17,7 +17,7 @@ text = file.read()
 
 DNA = text.split('\n') # split on new lines
 
-s = DNA[0].strip()
+s = DNA[0].strip() # strip to remove any 'extras'
 t = DNA[1].strip()
 
 #s = 'GATATATGCATATACTT'
